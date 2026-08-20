@@ -6,7 +6,7 @@ Most of my current work involves Rust, LLM-based workflows, on-prem computer vis
 
 ## Recent work
 
-- **QuoteAssist** — turns quotation requests received as text, voice notes, or photos into priced PDF quotations.
+- **[QuoteAssist](https://github.com/udayj/assistant-showcase)** — multi-service agent system integrating Whatsapp, Telegram, Tally ERP, structured LLM tools calls that turns quotation requests received as text, voice notes, or photos into priced PDF quotations.
 - **[QuoteWatch](https://github.com/udayj/quotewatch)** — reads a sales inbox and produces a daily report of quotations and follow-ups that need attention.
 - **StockIQ** — adds inventory analysis and dashboards to an existing Tally ERP setup without requiring a data migration.
 - **Action Search** — on-prem video search using YOLO and CLIP, running at approximately 40 ms per frame on commodity hardware.
@@ -16,10 +16,10 @@ QuoteWatch is public. The other systems are mostly private; the repositories bel
 ## Selected public work
 
 - [quotewatch](https://github.com/udayj/quotewatch) — a Rust service that turns Gmail quotation threads into two follow-up queues, using structured LLM classification and an idempotent libSQL workflow.
+- [quoteassist](https://github.com/udayj/assistant-showcase) — a sanitized multi-service agent system integrating WhatsApp, Telegram, Tally ERP, structured LLM tools, provider fallback and quotation generation across Rust, Python and TypeScript.
 - [cash-tracker](https://github.com/udayj/cash-tracker) — a Telegram expense tracker using an LLM for parsing and categorisation.
 - [tally_xml_parser](https://github.com/udayj/tally_xml_parser) — a Rust library for querying and parsing stock data from Tally ERP.
 - [tally-wasm-core](https://github.com/udayj/tally-wasm-core) — inventory movement, reorder, ROI, and cable cut-length analysis compiled to WebAssembly.
-- [tally_client](https://github.com/udayj/tally_client) — a small Windows-deployable service connecting remote applications to a local Tally instance.
 - [dex-aggregator](https://github.com/udayj/dex-aggregator) — a small Rust implementation of a routing and aggregation service for Starknet DEX pools.
   
 ## Background
